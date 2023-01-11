@@ -1,0 +1,91 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(23, 0, 34);
+    color: white;
+
+    overflow: hidden;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5em;
+}
+
+
+td {
+    text-align: center;
+    padding: .5em;
+    min-width: 2.5em;
+}
+
+td:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.number {
+    font-size: 0.65rem;
+    float: left;
+}
+
+.abbreviation {
+    font-size: 1.25rem;
+}
+
+
+.reactive_nonmetal {    
+    background-color: rgb(255, 255, 214); 
+}
+
+.alkali_metal {         
+    background-color: rgb(255, 202, 199); 
+}
+
+.alkaline_earthmetal {  
+    background-color: rgb(209, 210, 255); 
+}
+
+.transition_metal {     
+    background-color: rgb(194, 219, 255); 
+}
+
+.posttransition_metal { 
+    background-color: rgb(210, 255, 204); 
+}
+
+.metalloid {            
+    background-color: rgb(224, 237, 196); 
+}
+
+.noble_gas {            
+    background-color: rgb(255, 232, 209); 
+}
+
+.lanthanide {           
+    background-color: rgb(199, 255, 255); 
+}
+
+.actinide {             
+    background-color: rgb(204, 255, 235); 
+}
+
+.unknown_property {     
+    background-color: rgb(230, 230, 230); 
+
+}
+
